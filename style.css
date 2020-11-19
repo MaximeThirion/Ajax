@@ -1,0 +1,12 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    height: 33.3vh;
+}
+
+#fname {
+    font-size: 1.5em;
+}

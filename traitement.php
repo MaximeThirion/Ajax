@@ -12,7 +12,7 @@
 
     $stagiaire = $reponse->fetch();
 
-    if ($stagiaire['id']) {
+    if ($stagiaire) {
 
         $id_stagiaire = $stagiaire['id'];
 

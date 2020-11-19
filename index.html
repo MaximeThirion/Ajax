@@ -4,12 +4,11 @@
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     </head>
     <body>
-        <p>Commencez à taper un nom dans le champs ci-dessous:</p>
+        <h1>Tirage au sort</h1>
         <form action="">
-            <label for="fname">Votre saisie actuelle:</label>
             <input type="button" id="fname" name="fname" onclick="showHint(this.value)" value="Lancer">
         </form>
-        <p>Suggestions: <span id="txtHint"></span></p>
+        <p><span id="txtHint"></span></p>
         <script>
             function showHint(str) {
 

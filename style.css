@@ -1,6 +1,9 @@
 html, body{
     height: 100%;
     width: 100%;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    font-family: 'Text Me One', sans-serif;
 }
 
 section {
@@ -9,4 +12,8 @@ section {
 
 #fname {
     font-size: 1.5em;
+}
+
+#txtHint {
+    font-size: 4em;
 }

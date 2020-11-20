@@ -14,14 +14,14 @@
             <section class="container">
                 <article class="row h-100">
                     <div class="align-self-center mx-auto">
-                        <h2><u>Tirage au sort</u></h2>
+                        <h2 id="titre"><u>Tirage au sort</u></h2>
                     </div>
                 </article>
             </section>
             <section class="container">
                 <article class="row h-100">
                     <div class="align-self-center mx-auto">
-                        <p id="txtHint" class="col-12 text-center">...</p>
+                        <p id="txtHint" class="col-12 text-center">.......</p>
                     </div>
                 </article>
             </section>
@@ -60,12 +60,12 @@
                 $('#fname').click(function() {
                     function animation() {
                     $('#txtHint').animate(
-                        { fontSize: '4em'}
-                        ,1000
+                        { fontSize: '120px'}
+                        ,1200
                     )
                     .animate(
-                        { fontSize:'3.5em'}
-                        ,1000
+                        { fontSize: '100px'}
+                        ,1200
                         ,animation
                     ); 
                 }

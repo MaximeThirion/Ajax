@@ -4,7 +4,6 @@ html, body{
     background-color: rgb(58, 58, 58);
     color: white;
     font-family: 'Text Me One', sans-serif;
-    font-size: 1.5em;
     background-image: url("img/fond.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -14,14 +13,18 @@ section {
     height: 33.33vh;
 }
 
+#titre {
+    font-size: 45px;
+}
+
 #txtHint {
-    font-size: 3.5em;
+    font-size: 100px;
     padding: 0;
     margin: 0;
 }
 
 #fname {
-    font-size: 1.2em;
+    font-size: 45px;
     background-image: linear-gradient(to top, rgba(226, 9, 31, 0.6), rgba(226, 9, 31, 1), rgba(226, 9, 31, 0.6));
     color: white;
 }

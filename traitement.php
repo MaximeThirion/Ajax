@@ -25,7 +25,7 @@
 
         $bdd->query("UPDATE stagiaire SET selected = 'false'");
 
-        echo('Réinitialisation du statut des stagiaires');
+        echo('Réinitialisation');
 
         $reponse->closeCursor();
     }

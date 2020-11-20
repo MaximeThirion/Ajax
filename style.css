@@ -25,6 +25,6 @@ section {
 
 #fname {
     font-size: 45px;
-    background-image: linear-gradient(to top, rgba(226, 9, 31, 0.6), rgba(226, 9, 31, 1), rgba(226, 9, 31, 0.6));
+    background-image: linear-gradient(to top, rgba(226, 9, 31, 0.5), rgba(226, 9, 31, 1), rgba(226, 9, 31, 1), rgba(226, 9, 31, 0.5));
     color: white;
 }

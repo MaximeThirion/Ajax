@@ -14,6 +14,7 @@ section {
 
 #titre {
     font-size: 45px;
+    margin: 0;
 }
 
 #txtHint {
